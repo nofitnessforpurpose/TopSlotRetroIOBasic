@@ -47,11 +47,14 @@ A minimal configuration requires:
 
 An advantage of using the approach as applicable to a Comms adaptor, is that the charge pump necessary for legacy compatability in the classic Comms adaptors is not present and considerable reductions in power are therefore achieved. Making it practicable to operate for considerable periods without external power source, even when high capacity batteries are not fitted to the Organiser. Power for an FTDI interface chip  included in the FTDI USB connector is sourced from the host computer, futher reducing power drain.
 
+Other 5 Volt to USB adaptors may function, no testing has been performed on other devices. 
 
 ## Considerations
 Models or files makes no accomodation for manufacturing tolerances, process or material - see Notes below. 
 
 The original male 8 way 2 row top slot header style connector (marked MXS 70224) may have included a custom pin support moulding. Data from a parts list kindly indicated in this <a href="www.organiser2.com"> hardware forum</a> seemed to confirm this theory. Readily avialable 8 way 2 row header connectors tend to have smaller pin support mouldings. The effect of using pin headers with smaller moulding is to permit the PCB to displace vertically in the slot guide channel, resulting in poor alignment with the mating female connector and potential insertion difficulty. There are a number of mitigations, such as changing the height of the male header connector in the PCB and adding material to support the top of a smaller male header pin support moulding. The precise accomodation will depend on your selected pin header moulding.     
+
+Connecting any device which has not undergone thorough testing, will lead to irreversible degredation.
 
 ## Please note:  
 All information is For Indication only.
