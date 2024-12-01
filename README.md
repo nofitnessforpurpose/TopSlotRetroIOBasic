@@ -29,13 +29,13 @@ All the files are required for a complete assembly. The default repository forma
 <br>
 
 ## Use Case
-The design presents a classic recomended interface to the Top Slot hardware. Though not the principle goal, an immediate advantage is that the device supports 'Out of the box' 5 VOLT TTL RS232 hardware support capabilty. As the I/O lines are selected from the internal on microcontroller RS232 hardware lines. Further, it is code compatible with the classic Comms adaptor (though of course has no on board RS232 ROM). It is anticiapted this device can be readily built and code reside on internal memory (A:) or a Side Slot (B: or C:) location.
+The design presents a classic recomended interface to the Top Slot hardware. Though not the principle goal, an immediate advantage is that the device supports 'Out of the box' 5 VOLT TTL RS232 hardware support capabilty. As the I/O lines are selected from the internal on microcontroller RS232 hardware lines. Further, it is code compatible with the classic Comms adaptor (though of course has no on board RS232 ROM). It is anticiapted this device can be readily built and code reside on internal memory (A:) or a Side Slot (B: or C:) location.  
 <BR>
 <BR>
-*** IMPORTANT NOTE - DO NOT CONNECT DIRECTLY TO RS232 LEVELS - IT WILL DEGRADE THE DEVICE ! ***  
+*** IMPORTANT NOTE - DO NOT CONNECT DIRECTLY TO <a target="_blank" rel="noopener noreferrer" href="https://en.wikipedia.org/wiki/RS-232">RS232 LEVELS</a> - IT WILL DEGRADE THE DEVICE ! ***  
 <BR>
 <BR>
-Testing indicatged good compatability, with the exception of DTR i.e. hardware not implemented, with <a href="http://www.lostgallifreyan.net/Software/ORG-Link/ORG-Link.htm">ORG-Link</a> when coupled with an <a href="https://ftdichip.com/products/ttl-232r-5v/">FTDI 5 Volt to RS232 Convertor</a> connected to an IBM compatible computer.
+Testing indicatged good compatability, with the exception of DTR i.e. hardware not implemented, with <a href="http://www.lostgallifreyan.net/Software/ORG-Link/ORG-Link.htm">ORG-Link</a> when coupled with an <a href="https://ftdichip.com/products/ttl-232r-5v/">FTDI 5 Volt to RS232 Convertor</a> connected to an IBM PC compatible system.
 
 A minimal configuration requires:  
 - 4 layer PCB
@@ -45,16 +45,16 @@ A minimal configuration requires:
 - 47K Resistor  (or 4k7)
 - 2 x 8 way Right angle header (~8 mm engagement length)
 
-An advantage of using the approach as applicable to a Comms adaptor, is that the charge pump necessary for legacy compatability in the classic Comms adaptors is not present and considerable reductions in power are therefore achieved. Making it practicable to operate for considerable periods without external power source, even when high capacity batteries are not fitted to the Organiser. Power for an FTDI interface chip  included in the FTDI USB connector is sourced from the host computer, futher reducing power drain.
+An advantage of using the approach as applicable to a Comms adaptor, is that the charge pump necessary for legacy compatability in the classic Comms adaptors is not present and considerable reductions in power are therefore achieved. Making it practicable to operate for considerable periods without external power source, even when high capacity batteries are not fitted to the Organiser. Power for an FTDI interface chip included in the FTDI USB connector is sourced from the host computer, futher reducing power drain.  
 
-Other 5 Volt to USB adaptors may function, no testing has been performed on other devices. 
+Other 5 Volt to USB adaptors may function, no testing has been performed on other devices.   
 
 ## Considerations
-Models or files makes no accomodation for manufacturing tolerances, process or material - see Notes below. 
+Models or files makes no accomodation for manufacturing tolerances, process or material - see Notes below.  
 
-The original male 8 way 2 row top slot header style connector (marked MXS 70224) may have included a custom pin support moulding. Data from a parts list kindly indicated in this <a href="https://www.organiser2.com"> hardware forum</a> seemed to confirm this theory. Readily avialable 8 way 2 row header connectors tend to have smaller pin support mouldings. The effect of using pin headers with smaller moulding is to permit the PCB to displace vertically in the slot guide channel, resulting in poor alignment with the mating female connector and potential insertion difficulty. There are a number of mitigations, such as changing the height of the male header connector in the PCB and adding material to support the top of a smaller male header pin support moulding. The precise accomodation will depend on your selected pin header moulding.     
+The original male 8 way 2 row top slot header style connector (marked MXS 70224) may have included a custom pin support moulding. Data from a parts list kindly indicated in this <a href="https://www.organiser2.com"> hardware forum</a> seemed to confirm this theory. Readily avialable 8 way 2 row header connectors tend to have smaller pin support mouldings. The effect of using pin headers with smaller moulding is to permit the PCB to displace vertically in the slot guide channel, resulting in poor alignment with the mating female connector and potential insertion difficulty. There are a number of mitigations, such as changing the height of the male header connector in the PCB and adding material to support the top of a smaller male header pin support moulding. The precise accomodation will depend on your selected pin header moulding.  
 
-Connecting any device which has not undergone thorough testing, will lead to irreversible degredation.
+Connecting any device which has not undergone thorough testing, will lead to irreversible degredation.  
 
 ## Please note:  
 All information is For Indication only.
