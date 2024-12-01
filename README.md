@@ -42,8 +42,8 @@ A minimal configuration requires:
 - CD4011UBE  
 - SN74HC125N
 - 1N4148 Diode  
-- 47K Resistor  
-- 2 x 8 way Right angle header
+- 47K Resistor  (or 4k7)
+- 2 x 8 way Right angle header (~8 mm engagement length)
 
 An advantage of using the approach as applicable to a Comms adaptor, is that the charge pump necessary for legacy compatability in the classic Comms adaptors is not present and considerable reductions in power are therefore achieved. Making it practicable to operate for considerable periods without external power source, even when high capacity batteries are not fitted to the Organiser. Power for an FTDI interface chip  included in the FTDI USB connector is sourced from the host computer, futher reducing power drain.
 
