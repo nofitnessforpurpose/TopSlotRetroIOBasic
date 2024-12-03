@@ -35,7 +35,7 @@ The design presents a classic recomended interface to the Top Slot hardware. Tho
 *** IMPORTANT NOTE - DO NOT CONNECT DIRECTLY TO <a target="_blank" rel="noopener noreferrer" href="https://en.wikipedia.org/wiki/RS-232">RS232 LEVELS</a> - IT WILL DEGRADE THE DEVICE ! ***  
 <BR>
 <BR>
-Testing indicatged good compatability, with the exception of DTR i.e. hardware not implemented, with <a href="http://www.lostgallifreyan.net/Software/ORG-Link/ORG-Link.htm">ORG-Link</a> when coupled with an <a href="https://ftdichip.com/products/ttl-232r-5v/">FTDI 5 Volt to RS232 Convertor</a> connected to an IBM PC compatible system.
+Testing indicated good compatability, with the exception of DTR i.e. hardware not implemented, with <a href="http://www.lostgallifreyan.net/Software/ORG-Link/ORG-Link.htm">ORG-Link</a> when coupled with an <a href="https://ftdichip.com/products/ttl-232r-5v/">FTDI 5 Volt to RS232 Convertor</a> connected to an IBM PC compatible system.
 
 A minimal configuration requires:  
 - 4 layer PCB
@@ -54,7 +54,7 @@ Models or files makes no accomodation for manufacturing tolerances, process or m
 
 The original male 8 way 2 row top slot header style connector (marked MXS 70224) may have included a custom pin support moulding. Data from a parts list kindly indicated in this <a href="https://www.organiser2.com"> hardware forum</a> seemed to confirm this theory. Readily avialable 8 way 2 row header connectors tend to have smaller pin support mouldings. The effect of using pin headers with smaller moulding is to permit the PCB to displace vertically in the slot guide channel, resulting in poor alignment with the mating female connector and potential insertion difficulty. There are a number of mitigations, such as changing the height of the male header connector in the PCB and adding material to support the top of a smaller male header pin support moulding. The precise accomodation will depend on your selected pin header moulding.  
 
-Connecting any device which has not undergone thorough testing, will lead to irreversible degredation.  
+Connecting any device which has not undergone thorough testing, will lead to irreversible degredation!  
 
 ## Please note:  
 All information is For Indication only.
