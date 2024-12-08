@@ -37,7 +37,7 @@ The design presents a classic minimal, deign reference based, interface to the T
   </div>
 </div>
 <BR>
-Though not the principle goal, an immediate advantage is that the device supports 'Out of the box' 5 VOLT TTL RS232 hardware support capabilty. As the I/O lines are selected from the internal on microcontroller RS232 hardware lines. Further, it is code compatible with the classic Comms adaptor (though of course has no on board RS232 ROM). It is anticiapted this device can be readily built and code reside on internal memory (A:) or a Side Slot (B: or C:) location.  
+Though not the principle goal, an immediate advantage is that the device supports 'Out of the box' 5 VOLT TTL RS232 hardware support capabilty. As the I/O lines are selected from the internal on microcontroller RS232 hardware lines. Further, it is code compatible with the classic Comms adaptor (though of course has no on board COMMS LINK ROM). It is anticiapted this device can be readily built and code reside on internal memory (A:) or a Side Slot (B: or C:) location.  
 <BR>
 <BR>
 *** IMPORTANT NOTE - DO NOT CONNECT DIRECTLY TO <a target="_blank" rel="noopener noreferrer" href="https://en.wikipedia.org/wiki/RS-232">RS232 LEVELS</a> - IT WILL DEGRADE THE DEVICE ! ***  
