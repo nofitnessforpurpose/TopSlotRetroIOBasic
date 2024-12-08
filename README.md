@@ -29,11 +29,11 @@ All the files are required for a complete assembly. The default repository forma
 <br>
 
 ## Use Case
-The design presents a classic recomended interface to the Top Slot hardware of a PSION Organiser II.
+The design presents a classic minimal deign reference based interface to the Top Slot hardware of a PSION Organiser II. The PCB dimensions are intented to be suitable for a classic Top Slot Case and construction is through hole PCB based for ease of assembly. Presenting 4 Input / Output channels, 2 Input D2 & D3 and 2 Output D0 & D4 along with 5 Volts and Ground.
 <BR>
 <div align="center">
   <div style="display: flex; align-items: flex-start;">
-  <img src="https://github.com/nofitnessforpurpose/TopSlotRetroIOBasic/blob/main/images/TSRIOB-09.png?raw=true" width="400px" alt="PSION Organiser II Top Slot Basci I/O Interface. Image copyright (c) 08 December 2024 nofitnessforpurpose All Rights Reserved">
+  <img src="https://github.com/nofitnessforpurpose/TopSlotRetroIOBasic/blob/main/images/TSRIOB-09.png?raw=true" width="300px" alt="PSION Organiser II Top Slot Basci I/O Interface. Image copyright (c) 08 December 2024 nofitnessforpurpose All Rights Reserved">
   </div>
 </div>
 <BR>
