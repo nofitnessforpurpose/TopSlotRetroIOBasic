@@ -29,7 +29,7 @@ All the files are required for a complete assembly. The default repository forma
 <br>
 
 ## Use Case
-The design presents a classic minimal, deign reference based, interface to the Top Slot hardware of a PSION Organiser II. The PCB dimensions are intented to be suitable for a classic Top Slot Case and construction is through hole PCB based for ease of assembly. Presenting 4 Input / Output channels, 2 Input D2 & D3 and 2 Output D0 & D4 along with 5 Volts and Ground.
+The design presents a classic minimal, deign reference based, interface to the Top Slot hardware of a PSION Organiser II. The PCB dimensions are intented to be suitable for a classic <a target="_blank" rel="noopener noreferrer" href="https://github.com/nofitnessforpurpose/TopSlotCase">Top Slot Case </a> and construction is through hole PCB based for ease of assembly. Presenting 4 Input / Output channels, 2 Input D2 & D3 and 2 Output D0 & D4 along with 5 Volts and Ground.
 <BR>
 <div align="center">
   <div style="display: flex; align-items: flex-start;">
