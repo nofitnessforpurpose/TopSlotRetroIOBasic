@@ -60,9 +60,9 @@ Connection for external signals is 5 Volt TTL via a 0.1" header compatible conne
  4 &nbsp;&nbsp;&nbsp;&nbsp;D2 - Input  
  5 &nbsp;&nbsp;&nbsp;&nbsp;D0 - Ouput  
  6 &nbsp;&nbsp;&nbsp;&nbsp;D4 - Ouput  
-   
 <BR>
 <BR>
+
 ## Use Case  
 <div align="center">
   <div style="display: flex; align-items: flex-start;">
