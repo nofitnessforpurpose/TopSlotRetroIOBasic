@@ -48,7 +48,10 @@ An 8 way resistor pack is wired to all slot data lines D0 through D7, so as to p
 If found more convenient than a resistor pack, individual 47k Ohm resistors might be vertically mounted and commoned to RN1's common connection (Pin 1) whilst retaining compatability with the Top Slot Case. This has the advantage of thus requiring only 1 resistor part number / value for the implementation, as 47k Ohm resistors can be fitted to all resistor locations.
 <BR>
 ### Decoupling  
-Decoupling cpacator locations are avilable for the board and or digital I/C's. It has been found the noise leve on the 
+Decoupling cpacator locations are avilable for the board and or digital I/C's. It has been found the noise level on the implementation to be low and at the point of testing no anomolouse behaviours measured or observed.  
+<br>
+Decoupling capacitance should be kept to a minimum, as this respresents a power drain during slot power up events. 47 nF is recomended for C1 and or C2 as preferred, though a single 100 nF (0.1uF) fitted to C1 was found to provide acceptable performance.
+
 <BR>
 <BR>
 ## Use Case  
