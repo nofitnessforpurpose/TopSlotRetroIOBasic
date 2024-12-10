@@ -52,6 +52,16 @@ Decoupling capacitor locations are avilable for the board and or digital I/C's. 
 <BR>
 Decoupling capacitance should be kept to a minimum, as this respresents a power drain during slot power up events. 47 nF is recomended for C1 and or C2 as preferred, though a single 100 nF (0.1uF) fitted to C1 was found to provide acceptable performance.
 <BR>
+### Connections  
+Connection for external signals is 5 Volt TTL via a 0.1" header compatible connection J3.  
+ 1 &nbsp&nbsp&nbsp&nbsp+5 Volts   
+ 2 &nbsp&nbsp&nbsp&nbsp0 Volts  
+ 3 &nbsp&nbsp&nbsp&nbspD3 - Input
+ 4 &nbsp&nbsp&nbsp&nbspD2 - Input
+ 5 &nbsp&nbsp&nbsp&nbspD0 - Ouput
+ 6 &nbsp&nbsp&nbsp&nbspD4 - Ouput
+ 
+<BR>
 <BR>
 ## Use Case  
 <div align="center">
