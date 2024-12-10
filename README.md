@@ -56,11 +56,11 @@ Decoupling capacitance should be kept to a minimum, as this respresents a power 
 Connection for external signals is 5 Volt TTL via a 0.1" header compatible connection J3.  
  1 &nbsp;&nbsp;&nbsp;&nbsp;+5 Volts   
  2 &nbsp;&nbsp;&nbsp;&nbsp;0 Volts  
- 3 &nbsp;&nbsp;&nbsp;&nbsp;D3 - Input
- 4 &nbsp;&nbsp;&nbsp;&nbsp;D2 - Input
- 5 &nbsp;&nbsp;&nbsp;&nbsp;D0 - Ouput
- 6 &nbsp;&nbsp;&nbsp;&nbsp;D4 - Ouput
- 
+ 3 &nbsp;&nbsp;&nbsp;&nbsp;D3 - Input  
+ 4 &nbsp;&nbsp;&nbsp;&nbsp;D2 - Input  
+ 5 &nbsp;&nbsp;&nbsp;&nbsp;D0 - Ouput  
+ 6 &nbsp;&nbsp;&nbsp;&nbsp;D4 - Ouput  
+   
 <BR>
 <BR>
 ## Use Case  
