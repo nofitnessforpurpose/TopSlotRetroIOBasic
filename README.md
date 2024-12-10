@@ -34,7 +34,7 @@ All the files are required for a complete assembly.
 <br>
 
 ## Implementation
-The design presents a classic minimal, deign reference based, interface to the Top Slot hardware of a PSION Organiser II family of devices. The 4 layer PCB dimensions (38.0 x 43.6 mm) are ideally suited to low cost manufacture. The 4 layer PCB design provides improved EMC permformance over two layer implementations. Whilst the PCB space claim is intented to be suitable for a classic <a target="_blank" rel="noopener noreferrer" href="https://github.com/nofitnessforpurpose/TopSlotCase">Top Slot Case </a> and construction is through hole PCB based for ease of assembly.
+The design presents a classic minimal, design reference based, interface to the Top Slot hardware of a PSION Organiser II family of devices. The 4 layer PCB dimensions (38.0 x 43.6 mm) are ideally suited to low cost manufacture. The 4 layer PCB design provides improved EMC permformance over two layer implementations. Whilst the PCB space claim is intented to be suitable for a classic <a target="_blank" rel="noopener noreferrer" href="https://github.com/nofitnessforpurpose/TopSlotCase">Top Slot Case </a> and construction is through hole PCB based for ease of assembly.
 <BR>
 ### Device Power Source  
 A classic Barrel Jack (5.5 mm outer, 2.0 mm pin) connector for the ~10.4 Volt 175 milli Amp center positive pin power supply is located to be compatible with the classic Top Slot Case. The Barrel jack connections are brought to 2 header pins on the left of the PCB to permit alternate power sources to be readily accomodated. 
