@@ -58,8 +58,8 @@ Connection for external signals is 5 Volt TTL via a 0.1" header compatible conne
  2 &nbsp;&nbsp;&nbsp;&nbsp;0 Volts  
  3 &nbsp;&nbsp;&nbsp;&nbsp;D3 - Input  
  4 &nbsp;&nbsp;&nbsp;&nbsp;D2 - Input  
- 5 &nbsp;&nbsp;&nbsp;&nbsp;D0 - Ouput  
- 6 &nbsp;&nbsp;&nbsp;&nbsp;D4 - Ouput  
+ 5 &nbsp;&nbsp;&nbsp;&nbsp;D0 - Output  
+ 6 &nbsp;&nbsp;&nbsp;&nbsp;D4 - Output  
 <BR>
 <BR>
 
