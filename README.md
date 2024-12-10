@@ -21,17 +21,17 @@ All the files are required for a complete assembly.
  - The default code format is <a target="_blank" rel="noopener noreferrer" href="https://en.wikipedia.org/wiki/Open_Programming_Language">OPL</a> or 6303 Assembler as flat text files.
 <BR>
  - The default repository format is STEP (<a target="_blank" rel="noopener noreferrer" href="https://en.wikipedia.org/wiki/ISO_10303"> ISO 10303</a> ) due to its high fidelity.  
- <BR>
+<BR>
  &nbsp;&nbsp;&nbsp;&nbsp;{ STL files are surface geometry as opposed to solid model representations, often containing export processing artifacts }. <br>  
  - The default repository format for PCB files is <a targer="_blank" rel="noopener noreferrer" href="https://en.wikipedia.org/wiki/Gerber_format">GERBER</a> .
-<br>
+<BR>
 
-<br>  
+<BR>
 <a target="_blank" rel="noopener noreferrer" href="https://www.freecad.org/" > FreeCAD </a> may prove suitable for viewing, handling and, if desired modifying STEP files.
-<br>
+<BR>
 <a target="_blank" rel="noopener noreferrer" href="https://www.kicad.org/" >KiCad </a> may prove suitable for viewing GERBER files.
-<br>
-<br>
+<BR>
+<BR>
 
 ## Implementation
 The design presents a classic minimal, design reference based, interface to the Top Slot hardware of a PSION Organiser II family of devices. The 4 layer PCB dimensions (38.0 x 43.6 mm) are ideally suited to low cost manufacture. The 4 layer PCB design provides improved EMC performance over two layer implementations. Whilst the PCB space claim is intented to be suitable for a classic <a target="_blank" rel="noopener noreferrer" href="https://github.com/nofitnessforpurpose/TopSlotCase">Top Slot Case </a> and construction is through hole PCB based for ease of assembly.
@@ -44,14 +44,13 @@ A classic Barrel Jack (5.5 mm outer, 2.0 mm pin) connector for the ~10.4 Volt 17
 <BR>
 ### Data lines  
 An 8 way resistor pack is wired to all slot data lines D0 through D7, so as to permit ready modification of the bits used for an I/O interface implementation. The 8 way resistor pack was selected as it is used on other <a target="_blank" rel="noopener noreferrer" href="https://github.com/nofitnessforpurpose?tab=repositories">designs</a>. As a data pack is implied, though not mandatory, due to the ommision of an on board ROM the resistor pack may not be required, as Data Packs contain equivalent circuitry to manage data bus impedance, though EMC performance will  differ.  
-<br>
+<BR>
 If found more convenient than a resistor pack, individual 47k Ohm resistors might be vertically mounted and commoned to RN1's common connection (Pin 1) whilst retaining compatability with the Top Slot Case. This has the advantage of thus requiring only 1 resistor part number / value for the implementation, as 47k Ohm resistors can be fitted to all resistor locations.
 <BR>
 ### Decoupling  
 Decoupling capacitor locations are avilable for the board and or digital I/C's. It has been found the noise level on the implementation to be low and at the point of testing no anomalous behaviours measured or observed.  
-<br>
+<BR>
 Decoupling capacitance should be kept to a minimum, as this respresents a power drain during slot power up events. 47 nF is recomended for C1 and or C2 as preferred, though a single 100 nF (0.1uF) fitted to C1 was found to provide acceptable performance.
-
 <BR>
 <BR>
 ## Use Case  
