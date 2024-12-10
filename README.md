@@ -1,6 +1,6 @@
 # TopSlotRetroIOBasic
 
-A minimal Top Slot hardware interface for PSION Organiser II (all family) devices. The intention to allow support for various I/O devices using 5 Volt signals. The design fits a classic PSION Orgnanser II Top Slot Case (See all notes).
+A minimal Top Slot hardware interface for PSION Organiser II (all family) devices. The intention to allow support for various I/O devices using 5 Volt signals. The design fits a classic PSION Organiser II Top Slot Case (See all notes).
 <BR>
 <div align="center">
   <div style="display: flex; align-items: flex-start;">
@@ -40,10 +40,15 @@ The design presents a classic minimal, deign reference based, interface to the T
 A classic Barrel Jack (5.5 mm outer, 2.0 mm pin) connector for the ~10.4 Volt 175 milli Amp center positive pin power supply is located to be compatible with the classic Top Slot Case. The Barrel jack connections are brought to 2 header pins on the left of the PCB to permit alternate power sources to be readily accomodated. 
 <BR>
 ### Input / Output    
-4 channel Input / Output configuration, comprising 2 Inputs being bits D2 & D3 and 2 Outputs being bits D0 & D4 along with switched 5 Volts and Ground.
+4 channel buffered Input / Output configuration, comprising 2 Inputs being bits D2 & D3 and 2 Outputs being bits D0 & D4 along with switched 5 Volts and Ground.
 <BR>
 ### Data lines  
-An 8 way resistor pack is wired to all slot data lines D0 through D7, so as to permit ready modification of the bits used for an I/O interface implementation. The 8 way resistor pack was selected as it is used on other <a target="_blank" rel="noopener noreferrer" href="https://github.com/nofitnessforpurpose?tab=repositories">designs</a>. As a data pack is implied, though not mandatory, due to the ommision of an on board ROM the resistor pack may not be required, as Data Packs contain equivalent circuitry to manage data bus impedance, though EMC performance will  differ. If found more convenient, individual 47k Ohm resistors might be vertically mounted and commoned to RN1's common connection (Pin 1) whilst retaining compatability with the Top Slot Case. This has the advantage or thus requiring only 1 resistor part number and value for the implementation, as 47k Ohm resistors can be fitted to all resistor locations.
+An 8 way resistor pack is wired to all slot data lines D0 through D7, so as to permit ready modification of the bits used for an I/O interface implementation. The 8 way resistor pack was selected as it is used on other <a target="_blank" rel="noopener noreferrer" href="https://github.com/nofitnessforpurpose?tab=repositories">designs</a>. As a data pack is implied, though not mandatory, due to the ommision of an on board ROM the resistor pack may not be required, as Data Packs contain equivalent circuitry to manage data bus impedance, though EMC performance will  differ.  
+<br>
+If found more convenient than a resistor pack, individual 47k Ohm resistors might be vertically mounted and commoned to RN1's common connection (Pin 1) whilst retaining compatability with the Top Slot Case. This has the advantage of thus requiring only 1 resistor part number / value for the implementation, as 47k Ohm resistors can be fitted to all resistor locations.
+<BR>
+### Decoupling  
+Decoupling cpacator locations are avilable for the board and or digital I/C's. It has been found the noise leve on the 
 <BR>
 <BR>
 ## Use Case  
