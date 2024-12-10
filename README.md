@@ -16,10 +16,14 @@ A minimal Top Slot hardware interface for PSION Organiser II (all family) device
 [![Static Badge](https://img.shields.io/badge/format-GERBER-blue?style=flat-square)](https://en.wikipedia.org/wiki/Gerber)
 
 <br>  
-All the files are required for a complete assembly. The default repository format is STEP (<a target="_blank" rel="noopener noreferrer" href="https://en.wikipedia.org/wiki/ISO_10303"> ISO 10303</a> ) due to its high fidelity.  { STL files are surface geometry as opposed to solid model representations, often containing export processing artifacts }. <br>  
-<br>  
-<br>  
-  The default repository format for PCB files is <a targer="_blank" rel="noopener noreferrer" href="https://en.wikipedia.org/wiki/Gerber_format">GERBER</a> .
+All the files are required for a complete assembly.  
+<BR>
+ - The default code format is <a target="_blank" rel="noopener noreferrer" href="https://en.wikipedia.org/wiki/Open_Programming_Language">OPL</a> or 6303 Assembler as flat text files.
+<BR>
+ - The default repository format is STEP (<a target="_blank" rel="noopener noreferrer" href="https://en.wikipedia.org/wiki/ISO_10303"> ISO 10303</a> ) due to its high fidelity.  
+ <BR>
+ &nbsp;&nbsp;&nbsp;&nbsp;{ STL files are surface geometry as opposed to solid model representations, often containing export processing artifacts }. <br>  
+ - The default repository format for PCB files is <a targer="_blank" rel="noopener noreferrer" href="https://en.wikipedia.org/wiki/Gerber_format">GERBER</a> .
 <br>
 
 <br>  
@@ -29,7 +33,7 @@ All the files are required for a complete assembly. The default repository forma
 <br>
 
 ## Use Case
-The design presents a classic minimal, deign reference based, interface to the Top Slot hardware of a PSION Organiser II. The PCB dimensions are intented to be suitable for a classic <a target="_blank" rel="noopener noreferrer" href="https://github.com/nofitnessforpurpose/TopSlotCase">Top Slot Case </a> and construction is through hole PCB based for ease of assembly. Presenting 4 Input / Output channels, 2 Input D2 & D3 and 2 Output D0 & D4 along with 5 Volts and Ground.
+The design presents a classic minimal, deign reference based, interface to the Top Slot hardware of a PSION Organiser II. The PCB dimensions are intented to be suitable for a classic <a target="_blank" rel="noopener noreferrer" href="https://github.com/nofitnessforpurpose/TopSlotCase">Top Slot Case </a> and construction is through hole PCB based for ease of assembly. Presenting 4 Input / Output channels, 2 Input being bits <D2> & <D3> and 2 Output being bits <D0> & <D4> along with switched 5 Volts and Ground.
 <BR>
 <div align="center">
   <div style="display: flex; align-items: flex-start;">
@@ -37,7 +41,7 @@ The design presents a classic minimal, deign reference based, interface to the T
   </div>
 </div>
 <BR>
-Though not the principle goal, an immediate advantage is that the device supports 'Out of the box' 5 VOLT TTL RS232 hardware support capabilty. As the I/O lines are selected from the internal on microcontroller RS232 hardware lines. Further, it is code compatible with the classic Comms adaptor (though of course has no on board COMMS LINK ROM). It is anticiapted this device can be readily built and code reside on internal memory (A:) or a Side Slot (B: or C:) location.  
+Though not the principle goal, an immediate advantage of the selected arrangement is the device supports 'Out of the box' 5 VOLT TTL RS232 hardware support capabilty. As the I/O lines are selected from the internal on microcontroller RS232 hardware lines. Further, it is code compatible with the classic COMMS LINK adaptor (though of course has no on board COMMS LINK ROM). It is anticiapted this device can be readily built and code reside on internal memory (A:) or a Side Slot (B: or C:) location.  
 <BR>
 <BR>
 *** IMPORTANT NOTE - DO NOT CONNECT DIRECTLY TO <a target="_blank" rel="noopener noreferrer" href="https://en.wikipedia.org/wiki/RS-232">RS232 LEVELS</a> - IT WILL DEGRADE THE DEVICE ! ***  
@@ -53,7 +57,7 @@ A minimal configuration requires:
 - 47K Resistor  (or 4k7)
 - 2 x 8 way Right angle header (~8 mm engagement length)
 
-An advantage of using the approach as applicable to a Comms adaptor, is that the charge pump necessary for legacy compatability in the classic Comms adaptors is not present and considerable reductions in power are therefore achieved. Making it practicable to operate for considerable periods without external power source, even when high capacity batteries are not fitted to the Organiser. Power for an FTDI interface chip included in the FTDI USB connector is sourced from the host computer, futher reducing power drain.  
+An advantage of using the approach as applicable to a COMMS LINK adaptor, is that the charge pump necessary for legacy compatability in the classic COMMS LINK adaptors is not present and considerable reductions in power are therefore achieved. Making it practicable to operate for considerable periods without external power source, even when high capacity batteries are not fitted to the Organiser. Power for an FTDI interface chip included in the FTDI USB connector is sourced from the host computer, futher reducing power drain on the Organiser device.  
 
 Other 5 Volt to USB adaptors may function, no testing has been performed on other devices.   
 
