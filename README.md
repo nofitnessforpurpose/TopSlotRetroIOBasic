@@ -54,12 +54,17 @@ Decoupling capacitance should be kept to a minimum, as this respresents a power 
 <BR>
 ### Connections  
 Connection for external signals is 5 Volt TTL via a 0.1" header compatible connection J3.  
- 1 &nbsp;&nbsp;&nbsp;&nbsp;+5 Volts   
- 2 &nbsp;&nbsp;&nbsp;&nbsp;0 Volts  
- 3 &nbsp;&nbsp;&nbsp;&nbsp;D3 - Input  
- 4 &nbsp;&nbsp;&nbsp;&nbsp;D2 - Input  
- 5 &nbsp;&nbsp;&nbsp;&nbsp;D0 - Output  
- 6 &nbsp;&nbsp;&nbsp;&nbsp;D4 - Output  
+
+| PIN | Description  | Func | FTDI Cable  | C1 Cable    |
+| --- | ------------ | ---- | ----------- | ----------- |
+| 1   | +5 Volts     | +5 V | N.C. (Red)  | N.C. (Red)  |
+| 2   | 0 Volts      | 0 V  | Black       | Black       |
+| 3   | D3 - Input   | TxD  | Orange      | Green       |
+| 4   | D2 - Input   | RTS  | Green       | Yellow      |
+| 5   | D0 - Output  | CTS  | Brown       | Blue        |
+| 6   | D4 - Output  | RxD  | Yellow      | White       |
+
+Table of example connections to 5 Volt USB Serial adaptor cables  
 <BR>
 <BR>
 
