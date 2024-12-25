@@ -35,23 +35,33 @@ All the files are required for a complete assembly.
 
 ## Implementation
 The design presents a classic minimal, design reference based, interface to the Top Slot hardware of a PSION Organiser II family of devices. The 4 layer PCB dimensions (38.0 x 43.6 mm) are ideally suited to low cost manufacture. The 4 layer PCB design provides improved EMC performance over two layer implementations. Whilst the PCB space claim is intented to be suitable for a classic <a target="_blank" rel="noopener noreferrer" href="https://github.com/nofitnessforpurpose/TopSlotCase">Top Slot Case </a> and construction is through hole PCB based for ease of assembly.
+
 <BR>
+
 ### Device Power Source  
 A classic Barrel Jack (5.5 mm outer, 2.0 mm pin) connector for the ~10.4 Volt 175 milli Amp center positive pin power supply is located to be compatible with the classic Top Slot Case. The Barrel Jack connections are brought to 2 header pins on the left of the PCB to permit alternate power sources to be readily accomodated. 
+
 <BR>
+
 ### Input / Output    
 4 channel buffered Input / Output configuration, comprising 2 Inputs being bits D2 & D3 and 2 Outputs being bits D0 & D4 along with switched 5 Volts and Ground.
+
 <BR>
+
 ### Data lines  
 An 8 way resistor pack is wired to all slot data lines D0 through D7, so as to permit ready modification of the bits used for an I/O interface implementation. The 8 way resistor pack was selected as it is used on other <a target="_blank" rel="noopener noreferrer" href="https://github.com/nofitnessforpurpose?tab=repositories">designs</a>. As a data pack is implied, though not mandatory, due to the ommision of an on board ROM the resistor pack may not be required, as Data Packs contain equivalent circuitry to manage data bus impedance. Though EMC performance will differ.  
 <BR>
 If found more convenient than a resistor pack, individual 47k Ohm resistors might be vertically mounted and commoned to RN1's common connection (Pin 1) whilst retaining compatability with the Top Slot Case. This has the advantage of thus requiring only 1 resistor part number / value for the implementation, as 47k Ohm resistors can be fitted to all resistor locations.
+
 <BR>
+
 ### Decoupling  
 Decoupling capacitor locations are avilable for the board and or digital I/C's. It has been found the noise level on the implementation to be low and at the point of testing no anomalous behaviours measured or observed.  
 <BR>
 Decoupling capacitance should be kept to a minimum, as this respresents a power drain during slot power up events. 47 nF is recomended for C1 and or C2 as preferred, though a single 100 nF (0.1uF) fitted to C1 was found to provide acceptable performance.
+
 <BR>
+
 ### Connections  
 Connection for external signals is 5 Volt TTL via a 0.1" header compatible connection J3.  
 
@@ -95,17 +105,21 @@ An advantage of using the approach as applicable to a COMMS LINK adaptor, is tha
 
 Other 5 Volt to USB adaptors may function, no testing has been performed on other devices.   
 
+<BR>
+
 ## Considerations
 Models or files makes no accomodation for manufacturing tolerances, process or material - see Notes below.  
 
-The original male 8 way 2 row top slot header style connector (marked MXS 70224) may have included a custom pin support moulding. Data from a parts list kindly indicated in this <a href="https://www.organiser2.com"> hardware forum</a> seemed to confirm this theory. Readily avialable 8 way 2 row header connectors tend to have smaller pin support mouldings. The effect of using pin headers with smaller moulding is to permit the PCB to displace vertically in the slot guide channel, resulting in poor alignment with the mating female connector and potential insertion difficulty. There are a number of mitigations, such as changing the height of the male header connector in the PCB and adding material to support the top of a smaller male header pin support moulding. The precise accomodation will depend on your selected pin header moulding.  
+The original male 8 way 2 row top slot header style connector (marked <a target="_blank" rel="noopener noreferrer" href="https://github.com/nofitnessforpurpose/TopSlotCase/blob/main/images/MXS-70224-02%20(2).jpg">MXS 70224</a>) may have included a custom pin support moulding. Data from a parts list kindly indicated in this <a href="https://www.organiser2.com"> hardware forum</a> seemed to confirm this theory. Readily available 8 way 2 row header connectors tend to have smaller pin support mouldings. The effect of using pin headers with smaller moulding is to permit the PCB to displace vertically in the slot guide channel, resulting in poor alignment with the mating female connector and potential insertion difficulty. There are a number of mitigations, such as changing the height of the male header connector in the PCB and adding material to support the top of a smaller male header pin support moulding. The precise accommodation will depend on your selected pin header moulding. Potentially <a target="_blank" rel="noopener noreferrer" href="https://github.com/nofitnessforpurpose/TopSlotCase-2/">this</a> case may be of assistance.  
 
 Connecting any device which has not undergone thorough testing, will lead to irreversible degredation!  
 
+<BR>
 
 ## Questions / Discussion
 See <a target="_blank" rel="noopener noreferrer" href="https://www.organiser2.com/"> Organiser 2 Hardware </a> forum, though see note below first.
 
+<BR>
 
 ## Please note:  
 All information is For Indication only.
