@@ -49,7 +49,7 @@ A classic Barrel Jack (5.5 mm outer, 2.0 mm pin) connector for the ~10.4 Volt 17
 <BR>
 
 ### Data lines  
-An 8 way resistor pack is wired to all slot data lines D0 through D7, so as to permit ready modification of the bits used for an I/O interface implementation. The 8 way resistor pack was selected as it is used on other <a target="_blank" rel="noopener noreferrer" href="https://github.com/nofitnessforpurpose?tab=repositories">designs</a>. As a data pack is implied, though not mandatory, due to the ommision of an on board ROM the resistor pack may not be required, as Data Packs contain equivalent circuitry to manage data bus impedance. Though EMC performance will differ.  
+An 8 way resistor pack is wired to all slot data lines D0 through D7, so as to permit ready modification of the bits used for an I/O interface implementation. The 8 way resistor pack was selected as it is used on other <a target="_blank" rel="noopener noreferrer" href="https://github.com/nofitnessforpurpose?tab=repositories">designs</a>. As a data pack is implied, though not mandatory, due to the ommision of an on board ROM the resistor pack may not be required. As Data Packs in side slots contain equivalent circuitry to manage data bus impedance. Though EMC performance will differ.  
 <BR>
 If found more convenient than a resistor pack, individual 47k Ohm resistors might be vertically mounted and commoned to RN1's common connection (Pin 1) whilst retaining compatability with the Top Slot Case. This has the advantage of thus requiring only 1 resistor part number / value for the implementation, as 47k Ohm resistors can be fitted to all resistor locations.
 
