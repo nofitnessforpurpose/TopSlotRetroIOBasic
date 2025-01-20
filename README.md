@@ -1,4 +1,4 @@
-# TopSlotRetroIOBasic
+# Top Slot Retro IO Basic
 
 A minimal Top Slot hardware interface for PSION Organiser II (all family) devices. The intention to allow support for various I/O devices using 5 Volt signals. The design fits a classic PSION Organiser II Top Slot Case (See all notes).
 <BR>
