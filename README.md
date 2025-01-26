@@ -95,7 +95,7 @@ Testing indicated good compatability, with the exception of DTR i.e. hardware no
 
 A minimal configuration requires:  
 - 4 layer PCB
-- CD4011UBE  
+- CD4011UBE  (SN74HC00N is an alternate part)
 - SN74HC125N
 - 1N4148 Diode  
 - 47K Resistor  (or 4k7)
