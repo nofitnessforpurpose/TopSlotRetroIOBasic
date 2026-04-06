@@ -4,7 +4,7 @@ A minimal Top Slot hardware interface for Organiser II (all family) devices. The
 <BR>
 <div align="center">
   <div style="display: flex; align-items: flex-start;">
-  <img src="https://github.com/nofitnessforpurpose/TopSlotRetroIOBasic/blob/main/images/TSRIOB-01.jpg?raw=true" width="400px" alt="PSION Organiser II Top Slot Basci I/O Interface. Image copyright (c) 10 November 2024 nofitnessforpurpose All Rights Reserved">
+  <img src="https://github.com/nofitnessforpurpose/TopSlotRetroIOBasic/blob/main/images/TSRIOB-01.jpg" width="400px" alt="PSION Organiser II Top Slot Basci I/O Interface. Image copyright (c) 10 November 2024 nofitnessforpurpose All Rights Reserved">
   </div>
 </div>
 <BR>
