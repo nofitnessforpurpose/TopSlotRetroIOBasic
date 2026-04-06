@@ -81,7 +81,7 @@ Table of example connections to 5 Volt USB Serial adaptor cables
 ## Use Case  
 <div align="center">
   <div style="display: flex; align-items: flex-start;">
-  <img src="https://github.com/nofitnessforpurpose/TopSlotRetroIOBasic/blob/main/images/TSRIOB-09.png?raw=true" width="300px" alt="PSION Organiser II Top Slot Basci I/O Interface. Image copyright (c) 08 December 2024 nofitnessforpurpose All Rights Reserved">
+  <img src="https://github.com/nofitnessforpurpose/TopSlotRetroIOBasic/blob/main/images/TSRIOB-09.png" width="300px" alt="PSION Organiser II Top Slot Basci I/O Interface. Image copyright (c) 08 December 2024 nofitnessforpurpose All Rights Reserved">
   </div>
 </div>
 <BR>
